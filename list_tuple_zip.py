@@ -1,4 +1,4 @@
-# AN APPLICATION THAT HELPS TO CALCULATE TOTAL COST OF EACH PRODUCTS
+# AN APPLICATION THAT HELPS TO CALCULATE TOTAL COST OF EACH PRODUCT
 
 
 # declaring lists to store user inputs
@@ -47,7 +47,7 @@ while started:
     finish_question()
 
 # looping through each item in lists to calculate total cost of the product
-# zip(names, numbers, prices) => this will return list of tuples such as[(name, number, price), (name, number price)]...
+# zip(names, numbers, prices) => this will return list of tuples such as[(name, number, price), (name, number price)...]
 # (name, number, price) in zip(names, numbers, prices) => unpacking each item according to its order
 for (name, number, price) in zip(names, numbers, prices):
     total_price = str(number * price)
